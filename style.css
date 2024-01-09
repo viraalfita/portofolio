@@ -1,0 +1,117 @@
+@import url("https://fonts.google.com/specimen/Inter");
+
+@font-face {
+    font-family: font;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.font {
+    font-family: font;
+    font-weight: 700;
+    color: hsl(222, 100%, 96%);
+    font-size: 40px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link::after{
+    color: gray;
+}
+
+.bg-blue {
+    background-color: #0083c941;
+}
+
+.bg-yellow {
+    background-color: #ffc83c77;
+}
+
+.text-grey{
+    color: #5A5A5A;
+}
+
+.text-light-grey {
+    color: #808080;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+   .animasi {
+    position: absolute;
+    bottom: 0;
+    animation-name: naik-turun;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes naik-turun {
+    0% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 10px;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
+
+  
