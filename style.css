@@ -20,8 +20,8 @@
     color: gray;
 }
 
-.bg-blue {
-    background-color: #0083c941;
+.bg-darkbrown {
+    background-color: #BBAB8C;
 }
 
 .bg-yellow {
@@ -40,10 +40,10 @@
     width: 190px;
     height: 254px;
     border-radius: 20px;
-    background: #f5f5f5;
+    background: transparent;
     position: relative;
-    padding: 1.8rem;
-    border: 2px solid #c3c6ce;
+    padding: 0rem;
+    border: 2px solid #BBAB8C;
     transition: 0.5s ease-out;
     overflow: visible;
    }
@@ -61,7 +61,7 @@
     width: 60%;
     border-radius: 1rem;
     border: none;
-    background-color: #008bf8;
+    background-color: #BBAB8C;
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
@@ -84,7 +84,7 @@
    
    /*Hover*/
    .card:hover {
-    border-color: #008bf8;
+    border-color: #BBAB8C;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
    
